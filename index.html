@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tomaszewsky</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/my-avatar.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Jakub Tomaszewski"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Jakub Tomaszewski">Jakub Tomaszewski</h1>
+
+            <p class="title">Machine Learning Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:tomaszewsky.biz@icloud.com" 
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+                >
+                  Contact me</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Warsaw, Poland</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/jakub-tomaszewski1/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://github.com/JakubTomaszewski"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/tomvszewsky/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+
+        <!--
+        - #NAVBAR
+      -->
+
+        <!-- <nav class="navbar">
+
+        </nav> -->
+
+      <div class="tile-common navbar-tile" id="navbar">
+        <article class="navbar-tile active" data-page="navigation">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link">About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#resume" class="navbar-link">Resume</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#projects" class="navbar-link">Projects</a>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <a href="#papers" class="navbar-link">Papers</a>
+            </li> -->
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </article>
+      </div>
+
+        <!--
+        - #ABOUT
+      -->
+
+      <div class="tile-common content-tile" id="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am a Machine Learning Engineer & Python Developer who graduated
+              from the Warsaw University of Technology with a degree in <b>Computer 
+              Science</b>. I am currently pursuing a <b>Master's degree in Artificial Intelligence </b> at the
+              <b>University of Amsterdam</b> while working as a Data Scientist at
+              <a href="https://billennium.com/"
+              style="display: inline; color:rgb(158, 231, 255)"
+              target="_blank"
+              rel="noopener noreferrer"><b>Billennium</b></a>.
+
+              <br><br>
+              I have a strong passion for <b>Artificial Intelligence </b> and <b>Cloud-based</b> technologies, 
+              and I am always looking for new opportunities to learn and grow in this field.
+              I am proficient in <b>Python</b> and have experience working with various machine learning algorithms and libraries,
+              such as <b>TensorFlow</b>, <b>PyTorch</b>, and <b>scikit-learn</b>. Moreover, I am familiar with cloud concepts and have experience 
+              working with <b>AWS</b> services such as S3, EC2, Lambda, and SageMaker.
+
+              <br><br>
+              Beyond work and tech, I enjoy cycling, running, and capturing moments from my life through photography.
+            </p>
+
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I Do</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icons/ai.png
+                "
+                    alt="design icon"
+                    width="50"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+
+                  <p class="service-item-text">
+                    Working on various machine learning projects including Computer Vision, NLP, and GenAI.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icons/coding.png"
+                    alt="Web development icon"
+                    width="45"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Software Development</h4>
+
+                  <p class="service-item-text">
+                    Developing high-quality code for cloud-based applications.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icons/consulting.png"
+                    alt="mobile app icon"
+                    width="50"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Consulting & Training</h4>
+
+                  <p class="service-item-text">
+                    Supporting teams developing AI and Cloud-based projects as well as conducting relevant trainings.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icons/camera.png"
+                    alt="camera icon"
+                    width="45"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    Capturing moments from my life through photography.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - Technologies
+        -->
+
+          <section class="technologies">
+            <!-- <div class="technologies-gallery"> -->
+            <h3 class="h3 technologies-title">Technologies</h3>
+
+            <ul class="technologies-list technologies-gallery has-scrollbar" id="technologiesList">
+
+              <li class="technologies-item">
+                <a 
+                  href="https://www.python.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                  src="./assets/images/technologies/python.png"
+                  alt="python logo"
+                  />
+                </a>
+                </li>  
+
+              <li class="technologies-item">
+              <a href="https://aws.amazon.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <img
+                src="./assets/images/technologies/aws.png"
+                alt="aws logo"
+                />
+              </a>
+              </li>
+
+              <li class="technologies-item">
+              <a href="https://pytorch.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <img
+                src="./assets/images/technologies/pytorch.png"
+                alt="pytorch logo"
+                />
+              </a>
+              </li>
+
+              <li class="technologies-item">
+                <a href="https://fastapi.tiangolo.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                  <img
+                  src="./assets/images/technologies/fastapi.png"
+                  alt="fastapi logo"
+                  />
+                </a>
+                </li>  
+
+              <li class="technologies-item">
+                <a 
+                  href="https://www.tensorflow.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                  src="./assets/images/technologies/tensorflow.png"
+                  alt="tensorflow logo"
+                  />
+                </a>
+              </li>
+
+              <li class="technologies-item">
+                <a href="https://www.docker.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                  <img
+                  src="./assets/images/technologies/docker.png"
+                  alt="docker logo"
+                  />
+                </a>
+                </li>
+            </ul>
+          <!-- </div> -->
+          </section>
+        </article>
+      </div>
+
+        <!--
+        - #RESUME
+      -->
+
+      <div class="tile-common content-tile" id="resume">
+        <article class="resume active" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h2 timeline-item-title">
+                  Artificial Intelligence MSc
+                </h4>
+                <h4 class="h4 timeline-item-suptitle">
+                  University of Amsterdam
+                </h4>
+
+                <span>2023 — 2025</span>
+
+                <p class="timeline-text">
+                  
+                  <ul class="timeline-text">
+                    <li>Machine Learning, Deep Learning, Computer Vision, Natural Language Processing</li>
+                  </ul>                  
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h2 timeline-item-title">Computer Science BSc</h4>
+                <h4 class="h4 timeline-item-suptitle">
+                  Warsaw University of Technology
+                </h4>
+
+                <span>2020 — 2023</span>
+
+                <p class="timeline-text">
+                  <ul class="timeline-text">
+                    <li>Thesis: “Tuning Small Semantic Segmentation Models via Knowledge Distillation”</li>
+                    <li>Data Structures, Algorithms, Object-Oriented Programming, Databases, Neural Networks</li>
+                    <li>Autonomous Driving Team Lead (2020-2023) and Vice President (2021-2022) at ADek Student Research Association</li>
+                  </ul>
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h2 timeline-item-title">Data Scientist</h4>
+                <h4 class="h4 timeline-item-suptitle">Billennium</h4>
+
+                <span>July 2024 — Present</span>
+
+                <p class="timeline-text">
+                  <ul class="timeline-text">
+                    <li>Devising NLP models for text classification using <b>PyTorch</b> and <b>AWS SageMaker</b></li>
+                    <li>Working with data warehouses such as <b>Snowflake</b> and <b>AWS Redshift</b></li>
+                    <li>Designed ETL pipelines using <b>Apache Airflow</b></li>
+                  </ul>   
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h2 timeline-item-title">Python Developer</h4>
+                <h4 class="h4 timeline-item-suptitle">Billennium</h4>
+
+                <span>July 2022 — July 2024</span>
+
+                <p class="timeline-text">
+                  <ul class="timeline-text">
+                    <li>Developed and maintained a web data processing platform in <b>Python</b>, <b>AWS</b> and <b>React</b></li>
+                    <li>Deployed machine learning models as microserives with <b>FastAPI</b>, <b>Docker</b>, and <b>Kubernetes</b></li>
+                    <li>Designed data processing pipelines using <b>KubeFlow</b></li>
+                  </ul>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h2 timeline-item-title">
+                  Machine Learning Researcher
+                </h4>
+                <h4 class="h4 timeline-item-suptitle">
+                  Łukasiewicz Research Network - PIMOT
+                </h4>
+
+                <span>July 2020 - June 2022</span>
+
+                <p class="timeline-text">
+                  Worked on an R&D project aimed at delivering an autonomous driving system for one of the largest research networks in Europe.
+                  <ul class="timeline-text">
+                    <li>Developed a real-time 2D <b>object detection</b> model with over 60%
+                      mAP</li>
+                    <li>Designed image and lidar data processing pipelines for <b>autonomous driving</b></li>
+                      <li>Created a 3D obstacle detection system in <b>PyTorch</b></li>
+                      <li>Devised a <b>CNN</b> traffic sign classification model in <b>TensorFlow (Keras)</b> with 98% accuracy</li>
+                  </ul> 
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
+      </div>
+
+        <!--
+        - # PROJECTS
+      -->
+
+      <div class="tile-common content-tile" id="projects">
+        <article class="projects active" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+
+            <ul class="project-list">
+              <li class="project-item active">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <div class="aspect-ratio-container">
+                      <img src="./assets/images/projects/t2v-bench/project-1.png" />
+                    </div>
+                  </figure>
+                  <h3 class="project-title">Text-to-Video Model Benchmark</h3>
+                  <div class="project-text">
+                    <p class="project-category">Artificial Intelligence</p>
+                  </div>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <div class="aspect-ratio-container">
+                      <img src="./assets/images/projects/adas/project-1.png"/>
+                    </div>
+                  </figure>
+
+                  <h3 class="project-title">ADAŚ - Autonomous Vehicle</h3>
+
+                  <p class="project-category">Autonomous Driving</p>
+                </a>                
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <div class="aspect-ratio-container">
+                      <img src="./assets/images/projects/ai-trainer/project-1.png" />
+                    </div>
+                  </figure>
+
+                  <h3 class="project-title">Customer Service AI Trainer</h3>
+                  <p class="project-category">Web Development & OpenAI</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/kd/project-1.png"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Knowledge Distillation Library</h3>
+                  <p class="project-category">Artificial Intelligence</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/returned_products/project-1.png"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Predicting the Number of Returned Products</h3>
+                  <p class="project-category">Artificial Intelligence</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/traffic_sign_generation/project-1.png"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Generating Traffic Signs with Generative Networks</h3>
+                  <p class="project-category">Artificial Intelligence</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+
+
+        <!--
+        - #MODAL CONTAINERS
+      -->
+
+    <!-- Text-to-Video Model Benchmark -->
+    <div id="modal" class="modal">
+      <div class="modal-content has-scrollbar">
+        <button class="modal-close-btn" data-modal-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <h2 class="h3 modal-title">Text-to-Video Model Benchmark</h2>
+
+        <!-- Links -->
+        <ul class="modal-url-buttons">
+            <li>
+            <a
+              href="https://github.com/JakubTomaszewski/Text2Video-Model-Hallucination-Benchmark"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Project code&nbsp;&nbsp;
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/JakubTomaszewski/Text2Video-Model-Hallucination-Benchmark/blob/master/docs/paper.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Report&nbsp;&nbsp;
+              <ion-icon name="document"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/JakubTomaszewski/Text2Video-Model-Hallucination-Benchmark/blob/master/docs/poster.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Poster&nbsp;&nbsp;
+              <ion-icon name="easel"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <img src="./assets/images/projects/t2v-bench/project-1.png"/>
+        <p id="modal-text">T2V-Bench is a fully automated method for evaluating Text-to-Video (T2V) generative models in both coarse and fine-grained, object-oriented manner. 
+          <br><br>
+          The method comprises five key task areas were T2V models were identified to typically underperform, namely:
+          object identification, object counting, color identification, color attribution, and general video consistency. 
+          
+          T2V-Bench employs a two-stage pipeline including evaluation of five aforementioned model generation capabilities, focusing on perception and reasoning.
+          <br><br>
+        </p>
+
+        <h4 class="h4 modal-title">Stage 1</h4>
+        <p id="modal-text">
+          In the first stage, perception is evaluated by verifying whether the generated videos satisfy the semantic requirements specified in the initial prompts used to create them.
+          That is achieved through video captioning and caption-prompt alignment assessment.
+          Videos generated by the T2V model are captioned using an video-to-text model. Subsequently, these generated captions are compared to the original prompts using an LLM to determine their mutual similarity.</p>
+        </p>
+        <img src="./assets/images/projects/t2v-bench/project-2.png"/>
+        
+        <br>
+        <h4 class="h4 modal-title">Stage 2</h4>
+        <p id="modal-text">The second stage assesses the T2V model’s reasoning capabilities, including object count and color identification as well as attribution, on a frame-based level. 
+          Leveraging four specific tasks: object detection and counting, color identification and attribution, 
+          this stage examines if specific video features, such as object color and quantity, align with the prompts initially provided to the model.
+        </p>
+        <img src="./assets/images/projects/t2v-bench/project-3.png"/>
+      </div>
+    </div>
+
+    <!-- ADAŚ - Autonomous Vehicle -->
+    <div id="modal" class="modal">
+      <div class="modal-content has-scrollbar">
+        <button class="modal-close-btn" data-modal-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <h2 class="h3 modal-title">ADAŚ - Autonomous Vehicle</h2>
+
+        <!-- Links -->
+        <ul class="modal-url-buttons">
+          <li>
+            <a
+              href="https://adek.pw.edu.pl/#our_projects"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Project Website&nbsp;&nbsp;
+              <ion-icon name="globe-outline"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1f-RWhB2nLwxX1lpzkQYp8K8cXWpw7vg7/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Demo Video&nbsp;&nbsp;
+              <ion-icon name="videocam"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/197_mieUNTSI30RNz_1U8QUaPYtjO10BC/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+            Simulator Video&nbsp;&nbsp;
+            <ion-icon name="videocam"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <img src="./assets/images/projects/adas/project-1.png"/>
+        <p id="modal-text">"ADAŚ is an autonomous RC car equipped with Advanced Driver Assistance Systems (ADAS). 
+          This vehicle utilizes AI-based perception and driving systems developed by 
+          the Autonomous Driving Team at the ADek Student Research Association. 
+          As the team leader, I managed a group of seven developers.
+          <br><br>
+          Together, we designed the architecture for the autonomous driving system from the ground up and 
+          developed advanced vision-based driver assistance systems. We then implemented and combined them using Robot Operating System (ROS).
+          <br><br>
+        </p>
+
+        <h4 class="h4 modal-title">ADAŚ in person</h4>
+        <p id="modal-text">ADAŚ is capable of detecting various objects on the road, such as other vehicles, pedestrians, and road signs. It can also recognize traffic lights and road lanes, 
+          and it can navigate in the environment using a camera and a LiDAR sensor.
+          You can see ADAŚ below:
+        </p>
+        <img src="./assets/images/projects/adas/project-2.png" style="width: 60%;" />
+
+
+        <h4 class="h4 modal-title">Simulator</h4>
+        <p>
+          In the video below, you can see ADAŚ in action in a simulator environment, which our team created to test the vehicle's capabilities in a controlled environment.
+          Notably, ADAŚ can detect other road users and objects, follow lanes, as well as recognize both traffic signs and lights and respond accordingly.  
+        </p>
+
+        <div style="width: 80%; height: 0; padding-bottom: 45%; position: relative; margin: auto">
+          <iframe src="https://drive.google.com/file/d/197_mieUNTSI30RNz_1U8QUaPYtjO10BC/preview" 
+          allow="autoplay" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        </div>
+
+        <h4 class="h4 modal-title">Real-life data</h4>
+        <p id="modal-text">
+          Our autonomous driving system has been tested in real-life conditions, where it has demonstrated its promising capabilities in detecting and recognizing various objects on the road, 
+          as well as planning driving maneuvers accordingly. See the video below for a demonstration our system in action.
+        </p>
+        <div style="width: 80%; height: 0; padding-bottom: 45%; position: relative; margin: auto">
+          <iframe src="https://drive.google.com/file/d/1f-RWhB2nLwxX1lpzkQYp8K8cXWpw7vg7/preview" 
+          allow="autoplay" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        </div>
+        
+      </div>
+    </div>
+
+      <!-- Customer Service AI Trainer -->
+      <div id="modal" class="modal">
+        <div class="modal-content has-scrollbar">
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+  
+          <h2 class="h3 modal-title">Customer Service AI Trainer</h2>
+
+        <!-- Links -->
+        <ul class="modal-url-buttons">
+          <li>
+            <a
+              href="https://github.com/ensynAI/customer-service-ai-trainer"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Project Code&nbsp;&nbsp;
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1yaJhV_MaZTxa6sMRCrsgBb9-3BrVTkLq/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Demo Video&nbsp;&nbsp;
+              <ion-icon name="videocam"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+          <img src="./assets/images/projects/ai-trainer/project-1.png"/>
+          <p id="modal-text">This following project was created as a startup idea for an AI-based chat platform for training Customer Service agents.
+            The entire app is AI-powered and uses the OpenAI chat completion API to simulate a potential customer as well as to provide feedback to the agent. 
+            <br><br>
+          </p>
+  
+          <h4 class="h4 modal-title">Demo Videos</h4>
+          <p id="modal-text">
+            Agents may respond to the AI-generated customer queries, and the platform will provide them with immediate, real-time feedback, which they can use to improve their responses.
+            <br> 
+          </p>
+          <div style="width: 80%; height: 0; padding-bottom: 46%; position: relative; margin: auto">
+            <iframe src="https://drive.google.com/file/d/1yaJhV_MaZTxa6sMRCrsgBb9-3BrVTkLq/preview" 
+            allow="autoplay" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+          </div>
+
+          <h4 class="h4 modal-title">System Architecture</h4>
+          <p id="modal-text">The platform was built using Python, FastAPI, and ReactJS and was containerized using Docker.
+            Moreover, I have created an OpenAI chat completion API wrapper to facilitate the communication between the platform and the OpenAI API.
+            The system architecture is presented in the diagram below.
+          </p>
+          <img src="./assets/images/projects/ai-trainer/project-2.png" style="width: 70%; max-width: 550px;" />
+        </div>
+      </div>
+
+      <!-- Knowledge Distillation Library -->
+      <div id="modal" class="modal">
+        <div class="modal-content has-scrollbar">
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+  
+          <h2 class="h3 modal-title">Knowledge Distillation Library</h2>
+
+        <!-- Links -->
+        <ul class="modal-url-buttons">
+          <li>
+            <a
+              href="https://github.com/JakubTomaszewski/Knowledge-Distillation-in-Semantic-Segmentation"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Project Code&nbsp;&nbsp;
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1NiMYJmSFl7Gc6_xIRAnKyMW3axZlyC-7/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Demo Video&nbsp;&nbsp;
+              <ion-icon name="videocam"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+          <img src="./assets/images/projects/kd/project-1.png"/>
+          <p id="modal-text">A project created for my Bachelor's Thesis - "Tuning Small Semantic Segmentation Models via Knowledge Distillation". The idea was to create a small and robust Semantic Segmentation model, for the purpose of segmenting road scenes in a fully autonomous vehicle. Hence, while preserving good performance the model has to work in real time.
+            <br><br>
+            To achive both, a technique known as <b>Knowledge Distillation</b> (KD) was employed in order to transfer knowledge from a large and complex SegFormer B5 model, to a small SegFormer B0 model, being lightweight enough to work on most devices in real time.
+            To this end, I created a framework for Knowledge Distillation, that is based on PyTorch and works as an add-on to the popular <b>HuggingFace Transformers</b> library. The framework is designed to be easily extendable and customizable, so that it can be used for various tasks and models.
+            <br><br>
+          </p>
+  
+          <h4 class="h4 modal-title">Training Pipeline</h4>
+          <p id="modal-text">The model has been trained on the Mapillary Vistas dataset, which is the most comprehensive and diverse, publicly available road
+            scene segmentation dataset, comprising 25 000 annotated samples.
+            <br><br>
+            Furthermore, a Response-Based Knowledge Distillation approach is employed for training the SegFormer model.
+            The training pipeline is presented in the diagram below.</p>
+          <img src="./assets/images/projects/kd/project-2.png"/>        
+          
+          <h4 class="h4 modal-title">Results</h4>
+          <p id="modal-text">
+            A demonstration video of the trained model in action is presented below.
+          </p>
+
+          <div style="width: 80%; height: 0; padding-bottom: 45%; position: relative; margin: auto">
+            <iframe src="https://drive.google.com/file/d/1NiMYJmSFl7Gc6_xIRAnKyMW3axZlyC-7/preview" 
+            allow="autoplay" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+          </div>
+
+          <p id="modal-text">
+            By introducing the KD learning scheme, the performance of SegFormer B0 increased by approximately 2.5% while preserving its previous compact size.
+            While the applied knowledge distillation method boosts the model’s performance for every class, as depicted in the figure below, 
+            the leveraged technique appears to be favorable for the minority classes, i.e. "Train" and "Bicycle".
+          </p>
+          <img src="./assets/images/projects/kd/project-3.png"/>
+        </div>
+      </div>
+
+      <!-- Predicting the Number of Returned Products -->
+      <div id="modal" class="modal">
+        <div class="modal-content has-scrollbar">
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+  
+          <h2 class="h3 modal-title">Predicting the Number of Returned Products</h2>
+
+        <!-- Links -->
+        <ul class="modal-url-buttons">
+          <li>
+            <a
+              href="https://github.com/JakubTomaszewski/Time-Series-Shop-Returns"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Project Code&nbsp;&nbsp;
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+          <img src="./assets/images/projects/returned_products/project-1.png"/>
+          <p id="modal-text">Predicting the number of shop returns using time series and regression. 
+            A university project that comprised a complete business problem analysis as well as data preparation and processing. This was ultimately complemented by 
+            training a regression model and deploying it with Flask and Docker.
+
+            <br><br>
+            <b>Context:</b>
+            <em>An online computer shop called "eSzoppping" is our client. The shop warehouse workers are struggling with organising and processing order returns, as they don't know how many packages to expect.</em>
+
+            <br><br>
+            <b>Task:</b>
+            <em>The goal was to create a model, which will support the warehouse workers by predicting the number of returned orders for the next 14 days.</em>
+            <br><br>
+
+          </p>
+  
+          <h4 class="h4 modal-title">Approach</h4>
+          <p id="modal-text">The model was trained on the dataset containing the number of returned orders for the last 3 years. 
+            I conducted a thorough explanatory data analysis (EDA) of the dataset, which allowed me to identify patterns in the 
+            data as well as the most important features for the model and to preprocess the data accordingly.
+          </p>
+          <img src="./assets/images/projects/returned_products/project-2.png"/>        
+          
+          <h4 class="h4 modal-title">Results</h4>
+          <p id="modal-text">Seeking the best model, I experimented with numerous regression models, including Linear Regression, Gradient Boosting, and Random Forest.
+            The latter model achieved the best results, with a Mean Absolute Error (MAE) of 1.015 suggesting that it was able to predict the number of returned products for each day with an error of 1.015 units.
+            <br>See the results in the figure below and in the first figure above.
+
+            <br><br>
+            Ultimately, the fine-tuned model was deployed using Flask and Docker, which allowed the client to access the model via a simple web interface created in React.
+
+          </p>
+          <img src="./assets/images/projects/returned_products/project-3.png"/>
+        </div>
+      </div>
+
+
+      <!-- Generating Traffic Signs with Generative Networks -->
+      <div id="modal" class="modal">
+        <div class="modal-content has-scrollbar">
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <h2 class="h3 modal-title">Generating Traffic Signs with Generative Networks</h2>
+
+        <!-- Links -->
+        <ul class="modal-url-buttons">
+          <li>
+            <a
+              href="https://github.com/JakubTomaszewski/Deep-Learning-Course/blob/master/Projects/Project%205%20-%20Generative%20Models.ipynb"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link modal-url-btn"
+            >
+              Project Code&nbsp;&nbsp;
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+          <img src="./assets/images/projects/traffic_sign_generation/project-1.png"/>
+          <p id="modal-text">The following project was created as part of the Deep Learning course at the Warsaw University of Technology.
+            It involved generating synthetic traffic sign image data using Generative Networks in <b>PyTorch</b>.<br><br>
+            To this end, I built and experimented with 
+            various variations of <b>VAE</b> namely:<br>
+            - Vanilla VAE<br>
+            - Conv VAE<br>
+            <br>as well as <b>GAN</b>:<br>
+            - DCGAN<br>
+            - VAEGAN
+            <br><br>
+            The models were trained on the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which contains over 50,000 images of 43 different traffic signs.
+            To evaluate them, I used the Frechet Inception Distance (FID) metric, which measures the similarity between the generated and real data distributions.
+            <br>
+            See the results of the generations in the image above.
+            <br><br>
+          </p>
+
+          <h4 class="h4 modal-title">Reconstructions</h4>
+          <p id="modal-text">
+            The models were also tested on their ability to reconstruct the input images in order to verify their latent space representation.
+            The results of the reconstructions are presented in the image below.
+          </p>
+          <img src="./assets/images/projects/traffic_sign_generation/project-2-reconstructions.png"/>        
+        </div>
+      </div>
+
+        <!--
+        - #CONTACT
+      -->
+
+      <div class="tile-common content-tile" id="contact">
+        <article class="contact active" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+            <form action="mailto:tomaszewsky.biz@icloud.com" method="post" enctype="text/plain" class="form" data-form>
+                <div class="input-wrapper">
+                    <input
+                        type="text"
+                        name="fullname"
+                        class="form-input"
+                        placeholder="Full name"
+                        required
+                        data-form-input
+                    />
+        
+                    <input
+                        type="email"
+                        name="email"
+                        class="form-input"
+                        placeholder="Email address"
+                        required
+                        data-form-input
+                    />
+                </div>
+        
+                <textarea
+                    name="message"
+                    class="form-input"
+                    placeholder="Your Message"
+                    required
+                    data-form-input
+                ></textarea>
+        
+                <button type="submit" class="form-btn">
+                    <ion-icon name="paper-plane"></ion-icon>
+                    <span>Send Message</span>
+                </button>
+            </form>
+        </section>
+        
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
