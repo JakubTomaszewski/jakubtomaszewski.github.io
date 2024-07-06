@@ -702,7 +702,8 @@ main {
 }
 
 .modal-title {
-  margin-bottom: 4px;
+  padding: 15px;
+  margin-bottom: 5px;
 }
 
 .modal-content time {
@@ -749,7 +750,7 @@ main {
 }
 
 .modal-content img {
-  width: 80%;
+  width: 90%;
   max-width: 600px;
   margin: 20px auto;
   border-radius: 14px;
@@ -762,7 +763,6 @@ main {
 }
 
 .modal-content p,
-.modal-content h2,
 .modal-content h4 {
   text-align: justify;
   margin: 10px 0;
@@ -780,6 +780,10 @@ main {
 
 .modal-content h4 {
   justify-content: flex-start;
+}
+
+.modal-content h2 {
+  text-align: center;
 }
 
 .modal-title .social-link {
@@ -904,13 +908,12 @@ main {
 }
 
 .timeline-item-title {
-  font-size: var(--fs-35);
-  line-height: 1.3;
+  font-size: var(--fs-4);
   margin-bottom: 7px;
 }
 
 .timeline-item-suptitle {
-  font-size: var(--fs-4);
+  font-size: var(--fs-5);
   color: var(--light-gray);
   line-height: 1.3;
   margin-bottom: 7px;
@@ -947,8 +950,8 @@ main {
 .timeline-text {
   color: var(--light-gray);
   font-weight: var(--fw-400);
-  font-size: var(--fs-5);
-  line-height: 2;
+  font-size: var(--fs-7);
+  line-height: 1.8;
   list-style-type: disc;
 }
 
