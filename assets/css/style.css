@@ -702,6 +702,7 @@ main {
 }
 
 .modal-title {
+  margin-top: 20px;
   padding: 15px;
   margin-bottom: 5px;
 }
@@ -863,6 +864,7 @@ main {
 
 .technologies-item img {
   width: 100%;
+  max-width: 200px;
   transition: transform 0.3s ease, filter 0.3s ease;
   transform-origin: center;
 }
