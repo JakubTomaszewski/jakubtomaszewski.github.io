@@ -188,10 +188,6 @@ body {
   position: relative;
 }
 
-.navbar-tile {
-  position: sticky;
-}
-
 .sidebar,
 article {
   background: var(--eerie-black-2);
@@ -697,7 +693,6 @@ main {
   visibility: visible;
 }
 
-
 .modal-container .testimonials-modal {
   transform: scale(1);
   opacity: 1;
@@ -795,7 +790,6 @@ main {
 .technologies-item img:hover {
   transform: scale(1.05);
 }
-
 
 /*-----------------------------------*\
   #RESUME
@@ -1211,7 +1205,7 @@ main {
 }
 
 .input-wrapper {
-  display:flex;
+  display: flex;
   grid-template-columns: 1fr;
   gap: 25px;
   margin-bottom: 25px;
@@ -1456,7 +1450,6 @@ textarea.form-input::-webkit-resizer {
   /**
    * #NAVBAR
    */
-
   .navbar {
     border-radius: 20px 20px 0 0;
   }
@@ -1466,7 +1459,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .navbar-link {
-    --fs-8: 18px;
+    --fs-8: 14px;
   }
 
   /**
@@ -1500,15 +1493,12 @@ textarea.form-input::-webkit-resizer {
     text-align: left;
   }
 
-  }
-
   .project-text {
     line-clamp: 2;
     -webkit-line-clamp: 2;
   }
 
   /* modal */
-
 
   .modal-img-wrapper {
     display: flex;
